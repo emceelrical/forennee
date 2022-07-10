@@ -1,0 +1,143 @@
+@media only screen and (max-width: 600px) {
+    *{
+      padding: 0;
+      margin: 0;
+      scroll-behavior: smooth;
+    }
+      /* Float four columns side by side */
+  .column {
+    width: 100%;
+    padding: 10px;
+      
+    }
+    
+    .column2 {
+      width: 100%;
+      padding: 10px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+    .card {
+      width: 90%;
+      margin: auto;
+    }
+  
+    .card img{
+      border-radius: 50%;
+      width:150px;
+      height: 150px;
+      margin-top: 30px;
+    }
+  
+    .clearoad{
+      padding: 10px;
+      color: gray;
+    }
+  
+    .card h3{
+      color: gray;
+      padding: 5px;
+    }
+  
+    .card p{
+      color: gray;
+      text-align: left;
+      padding: 10px
+    }
+  
+    /* skilss */
+    .container {
+      width: 100%;
+      background-color: #ddd;
+      border-radius: 10px;
+    }
+    
+    .skills {
+      text-align: right;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: white;
+      
+    }
+    
+    .Target  {width: 95%; background-color: aqua;}
+    .Creativity {width: 85%; background-color: aqua;}
+    .Effective {width: 100%; background-color: aqua;}
+    .Team {width: 95%; background-color: aqua;}
+    .English{width: 100%; background-color: #f44336;;}
+    .Efik{width: 100%; background-color: #2196F3;}
+    
+   .zx{
+    background-color: aqua;
+    padding-top: 20px;
+   } 
+  
+   .zx p{
+    text-align: center;
+    font-size: 14px;
+    margin-left: 10px;
+    color: white;
+    padding: 10px;
+   }
+  
+   .card h4{
+    color: gray;
+    text-align: left;
+    margin-left: 10px;
+    font-style: italic;
+    padding-top: 10px;
+   }
+  
+   /* navigation */
+  
+  
+  .mobile-container {
+    margin: auto;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    color: aqua;
+  }
+  
+  li{
+    text-align: left;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  
+  }
